@@ -6,7 +6,7 @@ import img_404 from "/404f.png"
 const NotFoundError = () => {
 
   const goBack = () =>{
-    window.location.replace("http://localhost:3000/")
+    window.location.replace("https://tournament-site-app.vercel.app/")
   }
 
   return (
