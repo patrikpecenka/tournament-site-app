@@ -5,14 +5,14 @@ import Login from "components/Login";
 
 
 const PrivateRoutes = () => {
-  const { toggleHide, isLoginVisible, closeLoginOpenCreate } = useModal();
+  const { toggleHide1, isLoginVisible, closeLoginOpenCreate } = useModal();
 
   return projectAuth.currentUser ? (
     <Outlet/>
   ) : (
     <Login
       isLoginVisible={!isLoginVisible}
-      toggleHide={toggleHide}
+      toggleHide={toggleHide1}
       closeLoginOpenCreate={closeLoginOpenCreate}
     />
   )

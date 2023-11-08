@@ -17,7 +17,11 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             //accesable pages
-            <Route path = "register" element={<Register />}/>
+            <Route path = "register" element={<Register isLoginVisible={false} toggleHide={function (): void {
+              throw new Error('Function not implemented.');
+            } } closeLoginOpenCreate={function (): void {
+              throw new Error('Function not implemented.');
+            } } />}/>
             
 
             //private pages
