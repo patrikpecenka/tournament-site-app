@@ -1,0 +1,120 @@
+.image-text-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+}
+
+.image-text-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.image-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #fff;
+  /*background-color: #353535;*/
+}
+
+.text-section-container {
+  display: flex;
+  /*background-color: #161616;*/
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  width: 50%;
+}
+
+.img-section {
+  object-fit: cover;
+  width: 600px;
+}
+
+.--text-section-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+.--text-section-text {
+  color: #fff;
+  max-width: 450px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.section-container-create-button {
+  margin-left: 50px;
+}
+
+
+/* CSS FOR SWAPPED ROWS */
+
+.swapped-image-text-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.swapped-image-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  border-left: 1px solid #fff;
+  line-height: 1rem;
+  /*background-color: #353535;*/
+}
+
+.swapped-text-section-container {
+  display: flex;
+  /*background-color: #161616;*/
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  text-align: right;
+}
+
+.swapped--text-section-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+.swapped--text-section-text {
+  color: #fff;
+  max-width: 450px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.swapped-section-container-create-button {
+  margin-right: 50px;
+}
+

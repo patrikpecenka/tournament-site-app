@@ -1,0 +1,57 @@
+:root {
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.landingpage-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: rgb(40,40,40);
+  background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(43,43,43,1) 49%, rgba(22,22,22,1) 100%);
+}
+
+.lp-title-text-container {
+  margin-top: 4rem;
+  font-size: 2.6rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lp-title-text [data-highlight="highlight"] {
+  color: #df0fc3;
+}
+
+.text-container {
+  margin: 32px auto;
+  max-width: 100%;
+  padding-top: 30px;
+}
+
+.lp-subtitle-text{
+  font-family: var(--font);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #a0a0a0;
+}
+
+.lp-subtitle-text [data-highlight="highlight"] {
+  color: #df0fc3;
+}
+
+.carousel-buttons {
+  text-align: center;
+}
+
+
+.fade-in {
+  transition: opacity 1.85s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.85s ease;
+}

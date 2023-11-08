@@ -1,0 +1,146 @@
+.error-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/src/assets/blob-scene-haikei-16-9.svg);
+}
+
+.error-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.robot {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.error-return-button {
+  background: #b12981;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-right: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #851f61; 
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-left: 3.3em;
+}
+
+.error-return-button .icon {
+  background: white;
+  margin-right: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #862063;
+  left: 0.3em;
+  transition: all 0.3s;
+}
+
+.error-return-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.error-return-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #930f89;
+}
+
+.error-return-button:hover .icon svg {
+  transform: translateX(0.1em);
+  
+}
+
+.error-return-button:active .icon {
+  transform: scale(0.95);
+}
+
+
+@media screen and (max-width: 800px) { 
+  .robot {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .text {
+    font-size: 3rem;
+  }
+  
+  .error-container {
+    flex-direction: column;
+  }
+
+  .back-arrow {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  .robot {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .text {
+    width: 470;
+    height: 393.75;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .robot {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .text {
+    width: 470;
+    height: 393.75;
+  }
+}
+
+@media screen and (min-width: 1980px) {
+  .error-wrapper {
+    background-image: url(/src/assets/blob-scene-haikei-4k.svg);
+  }
+
+  .robot {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+  }
+
+  .text {
+    width: 752px;
+    height: 630px;
+  }
+
+}

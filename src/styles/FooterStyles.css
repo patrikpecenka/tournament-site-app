@@ -1,0 +1,132 @@
+@media screen and (min-width: 1080px) {
+  .links-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer-wrapper {
+  height: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #161616;
+  color: #fff;
+  padding: 0px 0px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 70%;
+  padding: 40px;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-main-content {
+  display: flex;
+  max-height: 200px;
+  align-content: center;
+  justify-content: space-around;
+  padding: 15px 24px;
+}
+
+.footer-links-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.links-container {
+  display: grid;
+  grid-gap: 5px;
+  width: 100%;
+  padding: 30px 30px;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.link-- {
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  transition: 0.4s ease-in-out;
+}
+
+.link--:nth-child(-n+1), .link--:nth-child(-n+3) {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.links-container a:hover {
+  color: #da2aa5;
+}
+
+.footer-social-media-wrapper {
+  display: flex;
+  height: 100px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+  color: #fff;
+  border-top: 1px solid #fff;
+  margin: 0px 40px;
+}
+
+.soocial-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 24px;
+  width: 100%;
+}
+
+.soocial-media-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.link--social:nth-child(1):hover{   /*instagram icon color*/
+  color: linear-gradient(61deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.link--social:nth-child(2):hover{   /*twitter icon color*/
+  color: #1DA1F2;
+}
+
+.link--social:nth-child(3):hover{   /*youtube icon color*/
+  color: #FF0000;
+}
+
+.link--social:nth-child(4):hover{   /*facebook icon color*/
+  color: #4267B2;
+}
+
+.link--social {
+  width: fit-content;
+  height: fit-content;
+  transition: 0.4s ease-out;
+  text-indent: 30px;
+}
+
+
+.link--social:hover {
+  color: rgb(218, 42, 165);
+}
+

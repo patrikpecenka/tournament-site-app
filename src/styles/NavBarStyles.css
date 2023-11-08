@@ -1,0 +1,99 @@
+:root {
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.navbar-container {
+    font-family: monospace;
+    position: relative;
+    z-index:100;
+    display: flex;
+    align-items: space;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    padding: 10px 150px;
+    height: 4rem;
+    width: 100%;
+}
+
+.navbar-logo-container {
+    font-family: monospace;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-indent: 20px;
+    padding-left: 5vw;
+}
+
+.navbar-site-name {
+    color: #fff;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5vw;
+}   
+
+.list-container li {
+    font-family: var(--font);
+    list-style: none;
+    padding: 0 50px;
+    position: relative;
+}
+
+
+.list-container li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s ease-in;
+}
+
+.list-container li a:hover {
+    color: #df0fc3;
+}
+
+.account-creation {
+    font-family: var(--font);
+    border: none;
+    border-radius: .2rem;
+    width: 110px;
+    white-space: nowrap;
+    height: 2rem;
+    background-color: #df0fc3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    outline: 0;
+    transition: all 0.3s ease-in;
+}
+
+.account-creation:hover {
+    background-color: #f54bde;
+}
+
+.create-button {
+    width: 170px;
+    margin-right: 0.6rem;
+}
+
+.login-button {
+    background-color: #404040;
+}
+
+.login-button:hover {
+    background-color: #616161;
+}
+
+.navbar-logo {
+    height: 40px;
+    width: 40px;
+}
