@@ -1,6 +1,6 @@
 import 'styles/Error404.css'
 import sad_robot from "/sad_robot.png"
-import img_404 from "/img_404.png"
+import img_404 from "/404f.png"
 
 
 const NotFoundError = () => {
