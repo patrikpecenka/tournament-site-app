@@ -1,8 +1,16 @@
+import apexlegends from "/apexlegends.jpg"
+import rocketleague from "/rocketleague.jpg"
+import overwatch from "/overwatch-2.jpg"
+import csgo from "/csgo.jpg"
+import valorant from "/valorant.jpg"
+import background from "/background.jpg"
+
+
 export const images = [
-  'src/assets/apexlegends.jpg',
-  'src/assets/rocketleague.jpg',
-  'src/assets/overwatch-2.jpg',
-  'src/assets/csgo.jpg',
-  'src/assets/valorant.jpg',
-  'src/assets/background.png',
+  apexlegends,
+  rocketleague,
+  overwatch,
+  csgo,
+  valorant,
+  background
 ];

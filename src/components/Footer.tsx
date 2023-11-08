@@ -1,5 +1,6 @@
 import 'styles/FooterStyles.css'
 import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconBrandFacebook } from '@tabler/icons-react'
+import logo from "/utopia-logo.png"
 
 const Footer = () => {
   return(
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-main-content">
           <div className="footer-logo-container">
-            <img className="footer-logo" src="src/assets/utopia-logo.png" alt="" />
+            <img className="footer-logo" src={logo} alt="logo" />
           </div>
           <div className="footer-links-wrapper">
             <div className="links-container">

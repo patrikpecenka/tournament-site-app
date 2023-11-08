@@ -5,6 +5,7 @@ import Login from './Login'
 import CreateAccount from './CreateAccount'
 import useModal from 'hooks/useModal'
 import { Link } from 'react-router-dom'
+import logo from "/utopia-logo.png"
 
 const navBar = () => {
 	const { isLoginVisible, setIsLoginVisible, isCreateVisible, toggleHide1, closeLoginOpenCreate, closeCreateOpenLogin } = useModal()
@@ -16,7 +17,7 @@ const navBar = () => {
 	return (
 		<div className="navbar-container">
 			<div className="navbar-logo-container">
-				<img className='navbar-logo' src="src/assets/utopia-logo.png" alt="" /> 
+				<img className='navbar-logo' src={logo}alt="logo" /> 
 				<p className='navbar-site-name'>champutopia</p>
 			</div>
 			<ul className="list-container">

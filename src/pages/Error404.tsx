@@ -1,4 +1,6 @@
 import 'styles/Error404.css'
+import sad_robot from "/sad_robot.png"
+import img_404 from "/img_404.png"
 
 
 const NotFoundError = () => {
@@ -10,8 +12,8 @@ const NotFoundError = () => {
   return (
     <div className='error-wrapper'>
       <div className="error-container">
-        <img className='text' src='src/assets/404f.png' alt=''/>
-        <img className='robot' src="src/assets/sad_robot.png" alt="" />
+        <img className='text' src={img_404} alt='404_img'/>
+        <img className='robot' src={sad_robot} alt="sad_robot_img" />
       </div>
       <div className="error-return-wrapper">
         <button className="error-return-button" onClick={goBack}> Take me back!
